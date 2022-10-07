@@ -148,6 +148,14 @@ function resultado() {
   tipo = document.getElementById("tipo").value;
   console.log("tipo");
   var pokemon = verificar(pokemons, tipo, geracao, lendario);
+  if (pokemon == undefined) {
+    pergunta.innerHTML = `<p> Infelizmente não conheço esse pokémon ainda, se quiser que eu conheça ele, clique no ícone do discord e mande as informações do pokémon para a programadora do jogo. <br>    <div id="btn-iniciar">
+      <br>
+      <button onclick="iniciar()"> Reiniciar jogo</button>
+      <br>
+    </div>`
+  }
+  else{
   pergunta.innerHTML =
     `<h2>` +
     pokemon.nome +
@@ -161,9 +169,10 @@ function resultado() {
     pokemon.lendario +
     `<br>    <div id="btn-iniciar">
       <br>
-      <button onclick="iniciar()"> Iniciar jogo</button>
+      <button onclick="iniciar()"> Reiniciar jogo</button>
       <br>
     </div>`;
+  }
 }
 function quais() {
   var quais = document.getElementById("pokemons");
