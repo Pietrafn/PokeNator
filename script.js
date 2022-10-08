@@ -891,7 +891,7 @@ const pokemons = [
     tipo: "metal",
     tipo2: "fada",
     estagio: "basico"
-  },
+  }/*,
   {
     nome: "",
     img: "",
@@ -900,7 +900,7 @@ const pokemons = [
     tipo: "",
     tipo2: "",
     estagio: ""
-  }
+  }*/
 ];
 console.log(pokemons.length);
 var lendario;
