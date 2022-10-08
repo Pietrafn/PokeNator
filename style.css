@@ -1,0 +1,83 @@
+body {
+  font-color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  min-height: 600px;
+  background-image: url("https://media.discordapp.net/attachments/1026231432273743934/1027769949936177212/unknown.png?width=1031&height=580");
+  background-color: #ffffff;
+  background-size: cover;
+  background-position: conver;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+.page-logo {
+  color: #ff0000;
+  margin: 0 0 0;
+}
+.page-logo img {
+  max-width: 200px;
+  max-height: 100px;
+  border-radius: 100px;
+}
+.page-subtitle {
+  color: #000000;
+  margin-top: 5px;
+}
+
+.akinator {
+  width: 200px;
+  border-radius: 20px;
+}
+
+.discord-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+@media (max-height: 500px) {
+  body {
+    min-height: 800px;
+  }
+}
+button {
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 10px;
+  background: #d32f2f;
+  font-color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+}
+select {
+  cursor: pointer;
+  border-radius: 10px;
+}
+.discord-logo:hover {
+  transform: rotate(720deg);
+  transition: 1.5s;
+  width: 60px;
+}
+#pokemons {
+  /*  background-color: white;
+  background: white;*/
+  background-image: url("https://wallpaperaccess.com/full/45634.png");
+  background-size: cover;
+  background-position: center;
+  /*  border-radius: 50px;*/
+}
+.pergunta {
+  border-radius: 30px;
+  background-position: cover;
+  background-size: cover;
+  background-image: url("https://i.pinimg.com/originals/f1/fd/74/f1fd74abdde20240ce7a6c0aa0a02dd3.gif");
+}
+.pergunta img {
+  max-width: 150px;
+  max-height: 150px;
+  border-radius: 150px;
+}
