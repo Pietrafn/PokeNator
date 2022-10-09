@@ -1204,7 +1204,11 @@ function quais() {
         pokemons[i2].cor;
     }
   }
-  quais.innerHTML += `<br>`;
+  quais.innerHTML += `<br><button onclick="fechar()">Fechar</button>`;
+}
+function fechar(){
+    var quais = document.getElementById("pokemons");
+  quais.innerHTML = "";
 }
 function verificar() {
   for (var i3 = 0; i3 < pokemons.length; i3++) {
