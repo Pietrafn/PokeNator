@@ -23,7 +23,6 @@ const pokemons = [
     tipo2: "venenoso",
     inicial: "sim",
     ash: "nao",
-    baseado: "plantas",
     metamorfose: "nao",
     estagio: "1"
   },
@@ -61,6 +60,10 @@ const pokemons = [
     lendario: "nao",
     geracao: "1",
     tipo: "eletrico",
+    inicial: "sim",
+    ash: "sim",
+    metamorfose: "nao",
+    cor: "amarelo",
     estagio: "1"
   },
   {
@@ -70,6 +73,10 @@ const pokemons = [
     lendario: "nao",
     geracao: "1",
     tipo: "eletrico",
+    inicial: "nao",
+    ash: "nao",
+    metamorfose: "nao",
+    cor: "laranja",
     estagio: "2"
   },
   {
@@ -79,6 +86,10 @@ const pokemons = [
     lendario: "nao",
     geracao: "1",
     tipo: "agua",
+    inicial: "sim",
+    ash: "sim",
+    metamorfose: "nao",
+    cor: "azul",
     estagio: "basico"
   },
   {
@@ -88,6 +99,10 @@ const pokemons = [
     lendario: "nao",
     geracao: "1",
     tipo: "agua",
+    inicial: "nao",
+    ash: "nao",
+    metamorfose: "nao",
+    cor: "azul",
     estagio: "1"
   },
   {
@@ -97,6 +112,10 @@ const pokemons = [
     lendario: "nao",
     geracao: "1",
     tipo: "agua",
+    inicial: "nao",
+    ash: "nao",
+    metamorfose: "nao",
+    cor: "azul",
     estagio: "2"
   },
   {
@@ -106,6 +125,10 @@ const pokemons = [
     lendario: "nao",
     geracao: "1",
     tipo: "fogo",
+    inicial: "sim",
+    ash: "sim",
+    metamorfose: "nao",
+    cor: "laranja",
     estagio: "basico"
   },
   {
@@ -115,6 +138,10 @@ const pokemons = [
     lendario: "nao",
     geracao: "1",
     tipo: "fogo",
+    inicial: "nao",
+    ash: "sim",
+    metamorfose: "nao",
+    cor: "vermelho",
     estagio: "1"
   },
   {
@@ -125,6 +152,10 @@ const pokemons = [
     geracao: "1",
     tipo: "fogo",
     tipo2: "voador",
+    inicial: "nao",
+    ash: "sim",
+    metamorfose: "nao",
+    cor: "laranja",
     estagio: "2"
   },
   {
@@ -918,6 +949,20 @@ const pokemons = [
     estagio: ""
   }
 ];
+/*  {
+    nome: "",
+    img:
+      "",
+    lendario: "",
+    geracao: "",
+    tipo: "",
+    tipo2: "",
+    inicial: "",
+    ash: "",
+    metamorfose: "",
+    cor: "",
+    estagio: ""
+  },*/
 console.log(pokemons.length);
 var lendario;
 var geracao;
@@ -957,7 +1002,7 @@ function pergunta3() {
   var quais = document.getElementById("pokemons");
   quais.innerHTML = "";
   var pergunta = document.getElementById("pergunta");
-  pergunta.innerHTML = `  <label for="resposta3">Qual é o tipo do pokémon que você está pensando?</0label><select id="tipo">
+  pergunta.innerHTML = `  <label for="resposta3">Qual é o tipo do pokémon que você está pensando?</label><select id="tipo">
     <option value="agua">Água</option>
     <option value="gelo">Gelo</option>
     <option value="planta">Planta</option>
@@ -984,16 +1029,68 @@ function pergunta4() {
   var quais = document.getElementById("pokemons");
   quais.innerHTML = "";
   var pergunta = document.getElementById("pergunta");
-  pergunta.innerHTML = `  <label for="resposta3">Qual é o estágio do pokémon que você está pensando?</0label><select id="estagio">
+  pergunta.innerHTML = `  <label for="resposta4">Qual é o estágio do pokémon que você está pensando?</label><select id="estagio">
     <option value="basico">Básico</option>
     <option value="1">Estágio 1</option>
     <option value="2">Estágio 2</option>
     <option value="3">Estágio 3</option>
+  </select><br><button onclick="pergunta5()">Próxima pergunta</button>`;
+}
+function pergunta5() {
+  estagio = document.getElementById("estagio").value;
+  console.log(estagio);
+  var quais = document.getElementById("pokemons");
+  quais.innerHTML = "";
+  var pergunta = document.getElementById("pergunta");
+  pergunta.innerHTML = `<label for="resposta5">O pokémon que você está pensando é inicial?</label><select id="inicial">
+    <option value="sim">Sim</option>
+    <option value="nao">Não</option>
+  </select><br><button onclick="pergunta6()">Próxima pergunta</button>`;
+}
+function pergunta6() {
+  inicial = document.getElementById("inicial").value;
+  console.log(inicial);
+  var quais = document.getElementById("pokemons");
+  quais.innerHTML = "";
+  var pergunta = document.getElementById("pergunta");
+  pergunta.innerHTML = `<label for="resposta6">O Ash já teve esse pokémon?</label><select id="ash">
+    <option value="sim">Sim</option>
+    <option value="nao">Não</option>
+  </select><br><button onclick="pergunta7()">Próxima pergunta</button>`;
+}
+function pergunta7() {
+  ash = document.getElementById("ash").value;
+  console.log(ash);
+  var quais = document.getElementById("pokemons");
+  quais.innerHTML = "";
+  var pergunta = document.getElementById("pergunta");
+  pergunta.innerHTML = `<label for="resposta7">Esse pokémon se transforma em outros pokémons?</label><select id="metamorfose">
+    <option value="sim">Sim</option>
+    <option value="nao">Não</option>
+  </select><br><button onclick="pergunta8()">Próxima pergunta</button>`;
+}
+function pergunta8() {
+  metamorfose = document.getElementById("metamorfose").value;
+  console.log(metamorfose);
+  var quais = document.getElementById("pokemons");
+  quais.innerHTML = "";
+  var pergunta = document.getElementById("pergunta");
+  pergunta.innerHTML = `<label for="resposta8">Qual é a cor principal desse pokémon?</label><select id="cor">
+    <option value="vermelho">Vermelho</option>
+    option value="azul">Azul</option>
+    <option value="verde">Verde</option>
+    <option value="amarelo">Amarelo</option>
+    <option value="roxo">Roxo</option>
+    <option value="rosa">Rosa</option>
+    <option value="marrom">Marrom</option>
+    <option value="preto">Preto</option>
+    <option value="cinza">Cinza</option>
+    <option value="branco">Branco</option>
   </select><br><button onclick="resultado()">O pokémon que você está pensando é...</button>`;
 }
 function resultado() {
-  estagio = document.getElementById("estagio").value;
-  console.log(estagio);
+  cor = document.getElementById("cor").value;
+  console.log(cor);
   var pokemon = verificar();
   if (pokemon == undefined) {
     pergunta.innerHTML = `<p> Infelizmente não conheço esse pokémon ainda, se quiser que eu conheça ele, clique no ícone do discord e mande as informações do pokémon pra mim<br>    
@@ -1017,7 +1114,14 @@ function resultado() {
         pokemon.lendario +
         `<br>Estágio:` +
         pokemon.estagio +
-        `    <div id="btn-iniciar">
+        `<br>O pokémon é inicial?<br>` +
+        pokemon.inicial +
+        `<br>O Ash já teve esse pokémon?<br>` +
+        pokemon.ash +
+        `<br>Esse pokémon se transforma em outros pokémons?<br>` +
+        pokemon.metamorfose +
+        `<br>Cor predominante:<br>` +
+        pokemon.cor   +`    <div id="btn-iniciar">
       <br>
       <button onclick="iniciar()"> Reiniciar </button>
       <br>
@@ -1038,7 +1142,14 @@ function resultado() {
         pokemon.lendario +
         `<br>Estágio:` +
         pokemon.estagio +
-        `    <div id="btn-iniciar">
+        `<br>O pokémon é inicial?<br>` +
+        pokemon.inicial +
+        `<br>O Ash já teve esse pokémon?<br>` +
+        pokemon.ash +
+        `<br>Esse pokémon se transforma em outros pokémons?<br>` +
+        pokemon.metamorfose +
+        `<br>Cor predominante:<br>` +
+        pokemon.cor +`    <div id="btn-iniciar">
       <br>
       <button onclick="iniciar()"> Reiniciar </button>
       <br>
@@ -1046,7 +1157,6 @@ function resultado() {
     }
   }
 }
-
 function quais() {
   var quais = document.getElementById("pokemons");
   quais.innerHTML =
@@ -1067,7 +1177,16 @@ function quais() {
         `<br> É lendário?<br>` +
         pokemons[i2].lendario +
         `<br>Estágio: ` +
-        pokemons[i2].estagio;
+        pokemons[i2].estagio +
+        `<br>O pokémon é inicial?<br>` +
+        pokemons[i2].inicial +
+        `<br>O Ash já teve esse pokémon?<br>` +
+        pokemons[i2].ash +
+        `<br>Esse pokémon se transforma em outros pokémons?<br>` +
+        pokemons[i2].metamorfose +
+        `<br>Cor predominante:<br>` +
+        pokemons[i2].cor;
+      /* && pokemons[i3].inicial == inicial && pokemons[i3].ash == ash && pokemons[i3].metamorfose == metamorfose && pokemons[i3].cor == cor*/
     } else {
       quais.innerHTML +=
         `<h2>` +
@@ -1083,7 +1202,15 @@ function quais() {
         `<br> É lendário?<br>` +
         pokemons[i2].lendario +
         `<br>Estágio: ` +
-        pokemons[i2].estagio;
+        pokemons[i2].estagio +
+        `<br>O pokémon é inicial?<br>` +
+        pokemons[i2].inicial +
+        `<br>O Ash já teve esse pokémon?<br>` +
+        pokemons[i2].ash +
+        `<br>Esse pokémon se transforma em outros pokémons?<br>` +
+        pokemons[i2].metamorfose +
+        `<br>Cor predominante:<br>` +
+        pokemons[i2].cor;
     }
   }
   quais.innerHTML += `<br>`;
@@ -1094,11 +1221,19 @@ function verificar() {
       (pokemons[i3].lendario == lendario &&
         pokemons[i3].tipo == tipo &&
         pokemons[i3].geracao == geracao &&
-        pokemons[i3].estagio == estagio) ||
+        pokemons[i3].estagio == estagio &&
+        pokemons[i3].inicial == inicial &&
+        pokemons[i3].ash == ash &&
+        pokemons[i3].metamorfose == metamorfose &&
+        pokemons[i3].cor == cor) ||
       (pokemons[i3].lendario == lendario &&
         pokemons[i3].tipo2 == tipo &&
         pokemons[i3].geracao == geracao &&
-        pokemons[i3].estagio == estagio)
+        pokemons[i3].estagio == estagio &&
+        pokemons[i3].inicial == inicial &&
+        pokemons[i3].ash == ash &&
+        pokemons[i3].metamorfose == metamorfose &&
+        pokemons[i3].cor == cor)
     ) {
       var pokemon = pokemons[i3];
     }
