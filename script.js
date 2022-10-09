@@ -938,15 +938,6 @@ const pokemons = [
     tipo: "metal",
     tipo2: "fada",
     estagio: "basico"
-  },
-  {
-    nome: "",
-    img: "",
-    lendario: "",
-    geracao: "",
-    tipo: "",
-    tipo2: "",
-    estagio: ""
   }
 ];
 /*  {
