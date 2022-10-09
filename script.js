@@ -43,7 +43,7 @@ const pokemons = [
   },
   {
     nome: "Pichu",
-    img:"https://pokemythology.net/conteudo/imgs/gtssprite/172.png" 
+    img:"https://pokemythology.net/conteudo/imgs/gtssprite/172.png", 
     lendario: "nao",
     geracao: "2",
     tipo: "eletrico",
