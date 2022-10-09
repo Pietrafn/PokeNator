@@ -63,12 +63,12 @@ select {
   width: 60px;
 }
 #pokemons {
-  /*  background-color: white;
-  background: white;*/
-  background-image: url("https://wallpaperaccess.com/full/45634.png");
+  background-color: white;
+  background: white;
+/*  background-image: url("https://wallpaperaccess.com/full/45634.png");
   background-size: cover;
-  background-position: center;
-  /*  border-radius: 50px;*/
+  background-position: center;*/
+  border-radius: 50px;
 }
 .pergunta {
   border-radius: 30px;
