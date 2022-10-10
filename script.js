@@ -1529,7 +1529,7 @@ function quais() {
   quais.innerHTML =
     `<br> Conheço ` +
     (pokemons.length - 1) +
-    ` pokémons até agora (<b>todos</b> os lendários incluídos) , mas minha desenvolvedora está trabalhando em atualizações com mais pokémons :)<br><br><button onclick="fechar()">Fechar</button><br><br>Se vir algum erro nas informações dos pokémons, por favor informe a desenvolvedora clicando na imagem do discord`;
+    ` pokémons até agora (<b>todos</b> os lendários incluídos) , mas minha desenvolvedora está trabalhando em atualizações com mais pokémons :)<br><br><button onclick="fechar()">Fechar</button><br><br>Se vir algum erro nas informações dos pokémons, por favor me diga clicando na imagem do discord e falando qual é o erro`;
   for (var i2 = 0; i2 < pokemons.length; i2++) {
     if (pokemons[i2].tipo2 == undefined) {
       quais.innerHTML +=
