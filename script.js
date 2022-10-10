@@ -24,6 +24,7 @@ const pokemons = [
     inicial: "sim",
     ash: "nao",
     metamorfose: "nao",
+    cor:"verde",
     estagio: "1"
   },
   {
@@ -76,7 +77,7 @@ const pokemons = [
     inicial: "nao",
     ash: "nao",
     metamorfose: "nao",
-    cor: "laranja",
+    cor: "marrom",
     estagio: "2"
   },
   {
@@ -128,7 +129,7 @@ const pokemons = [
     inicial: "sim",
     ash: "sim",
     metamorfose: "nao",
-    cor: "laranja",
+    cor: "vermelho",
     estagio: "basico"
   },
   {
@@ -155,7 +156,7 @@ const pokemons = [
     inicial: "nao",
     ash: "sim",
     metamorfose: "nao",
-    cor: "laranja",
+    cor: "vermelho",
     estagio: "2"
   },
   {
@@ -166,6 +167,10 @@ const pokemons = [
     geracao: "1",
     tipo: "eletrico",
     tipo2: "voador",
+    inicial:"nao",
+    ash:"sim",
+    metamorfose:"nao",
+    cor:"vermelho",
     estagio: "basico"
   },
   {
@@ -175,6 +180,10 @@ const pokemons = [
     lendario: "nao",
     geracao: "2",
     tipo: "fogo",
+    inicial:"sim",
+    ash:"sim",
+    metamorfose:"nao",
+    cor:"amarelo",
     estagio: "basico"
   },
   {
@@ -184,6 +193,10 @@ const pokemons = [
     lendario: "nao",
     geracao: "2",
     tipo: "fogo",
+    inicial:"nao",
+    ash:"sim",
+    metamorfose:"nao",
+    cor:"amarelo",
     estagio: "1"
   },
   {
@@ -193,6 +206,10 @@ const pokemons = [
     lendario: "nao",
     geracao: "2",
     tipo: "fogo",
+    inicial:"nao",
+    ash:"sim",
+    metamorfose:"nao",
+    cor:"amarelo",
     estagio: "2"
   },
   {
@@ -202,6 +219,10 @@ const pokemons = [
     lendario: "nao",
     geracao: "3",
     tipo: "fogo",
+    inicial:"sim",
+    ash:"nao",
+    metamorfose:"nao",
+    cor:"vermelho",
     estagio: "basico"
   },
   {
@@ -211,6 +232,10 @@ const pokemons = [
     lendario: "nao",
     geracao: "3",
     tipo: "fogo",
+    inicial:"nao",
+    ash:"nao",
+    metamorfose:"nao",
+    cor:"vermelho",
     estagio: "1"
   },
   {
@@ -220,6 +245,10 @@ const pokemons = [
     lendario: "nao",
     geracao: "3",
     tipo: "fogo",
+    inicial:"nao",
+    ash:"nao",
+    metamorfose:"nao",
+    cor:"vermelho",
     estagio: "2"
   },
   {
@@ -230,6 +259,10 @@ const pokemons = [
     geracao: "1",
     tipo: "fogo",
     tipo2: "voador",
+    inicial:"nao",
+    ash:"nao",
+    metamorfose:"nao",
+    cor:"amarelo",
     estagio: "basico"
   },
   {
@@ -239,6 +272,10 @@ const pokemons = [
     lendario: "sim",
     geracao: "3",
     tipo: "fogo",
+    inicial:"nao",
+    ash:"nao",
+    metamorfose:"nao",
+    cor:"marrom",
     estagio: "basico"
   },
   {
@@ -248,6 +285,10 @@ const pokemons = [
     lendario: "nao",
     geracao: "2",
     tipo: "agua",
+    inicial:"sim",
+    ash:"sim",
+    metamorfose:"nao",
+    cor:"azul",
     estagio: "basico"
   },
   {
@@ -257,6 +298,10 @@ const pokemons = [
     lendario: "nao",
     geracao: "2",
     tipo: "agua",
+    inicial:"nao",
+    ash:"nao",
+    metamorfose:"nao",
+    cor:"azul",
     estagio: "1"
   },
   {
@@ -266,6 +311,10 @@ const pokemons = [
     lendario: "nao",
     geracao: "2",
     tipo: "agua",
+    inicial:"nao",
+    ash:"nao",
+    metamorfose:"nao",
+    cor:"azul",
     estagio: "2"
   },
   {
@@ -275,6 +324,10 @@ const pokemons = [
     lendario: "nao",
     geracao: "3",
     tipo: "agua",
+    inicial:"sim",
+    ash:"sim",
+    metamorfose:"nao",
+    cor:"azul",
     estagio: "basico"
   },
   {
@@ -284,6 +337,10 @@ const pokemons = [
     lendario: "nao",
     geracao: "3",
     tipo: "agua",
+    inicial:"nao",
+    ash:"sim",
+    metamorfose:"nao",
+    cor:"azul",
     estagio: "1"
   },
   {
@@ -294,6 +351,10 @@ const pokemons = [
     geracao: "3",
     tipo: "agua",
     tipo2: "sombrio",
+    inicial:"nao",
+    ash:"sim",
+    metamorfose:"nao",
+    cor:"azul",
     estagio: "2"
   },
   {
@@ -304,6 +365,10 @@ const pokemons = [
     geracao: "1",
     tipo: "gelo",
     tipo2: "voador",
+    inicial:"nao",
+    ash:"nao",
+    metamorfose:"nao",
+    cor:"azul",
     estagio: "basico"
   },
   {
@@ -313,6 +378,10 @@ const pokemons = [
     lendario: "sim",
     geracao: "2",
     tipo: "agua",
+    inicial:"nao",
+    ash:"nao",
+    metamorfose:"nao",
+    cor:"azul",
     estagio: "basico"
   },
   {
@@ -322,6 +391,10 @@ const pokemons = [
     lendario: "sim",
     geracao: "3",
     tipo: "gelo",
+    inicial:"nao",
+    ash:"nao",
+    metamorfose:"nao",
+    cor:"azul",
     estagio: "basico"
   },
   {
@@ -331,6 +404,10 @@ const pokemons = [
     lendario: "nao",
     geracao: "1",
     tipo: "normal",
+    inicial:"nao",
+    ash:"nao",
+    metamorfose:"nao",
+    cor:"amarelo",
     estagio: "1"
   },
   {
@@ -340,15 +417,23 @@ const pokemons = [
     lendario: "sim",
     geracao: "1",
     tipo: "psiquico",
+    inicial:"nao",
+    ash:"nao",
+    metamorfose:"nao",
+    cor:"rosa",
     estagio: "basico"
   },
   {
-    nome: "MewTwo",
+    nome: "Mewtwo",
     img:
       "data:image/jpeg;base64,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",
     lendario: "sim",
     geracao: "1",
     tipo: "psiquico",
+    inicial:"nao",
+    ash:"nao",
+    metamorfose:"nao",
+    cor:"roxo",
     estagio: "basico"
   },
   {
@@ -358,6 +443,10 @@ const pokemons = [
     lendario: "nao",
     geracao: "1",
     tipo: "agua",
+    inicial:"nao",
+    ash:"sim",
+    metamorfose:"nao",
+    cor:"vermelho",
     estagio: "basico"
   },
   {
@@ -368,6 +457,10 @@ const pokemons = [
     geracao: "1",
     tipo: "agua",
     tipo2: "sombrio",
+    inicial:"nao",
+    ash:"sim",
+    metamorfose:"nao",
+    cor:"azul",
     estagio: "1"
   },
   {
@@ -377,6 +470,10 @@ const pokemons = [
     lendario: "nao",
     geracao: "1",
     tipo: "normal",
+    inicial:"nao",
+    ash:"nao",
+    metamorfose:"nao",
+    cor:"amarelo",
     estagio: "basico"
   },
   {
@@ -387,6 +484,10 @@ const pokemons = [
     geracao: "2",
     tipo: "fada",
     tipo2: "normal",
+    inicial:"nao",
+    ash:"nao",
+    metamorfose:"nao",
+    cor:"rosa",
     estagio: "basico"
   },
   {
@@ -397,6 +498,10 @@ const pokemons = [
     geracao: "1",
     tipo: "fada",
     tipo2: "normal",
+    inicial:"nao",
+    ash:"nao",
+    metamorfose:"nao",
+    cor:"rosa",
     estagio: "1"
   },
   {
@@ -407,6 +512,10 @@ const pokemons = [
     geracao: "6",
     tipo: "fada",
     tipo2: "normal",
+    inicial:"nao",
+    ash:"nao",
+    metamorfose:"nao",
+    cor:"rosa",
     estagio: "2"
   },
   {
@@ -416,6 +525,10 @@ const pokemons = [
     lendario: "nao",
     geracao: "1",
     tipo: "normal",
+    inicial:"nao",
+    ash:"nao",
+    metamorfose:"nao",
+    cor:"marrom",
     estagio: "basico"
   },
   {
@@ -424,6 +537,10 @@ const pokemons = [
     lendario: "nao",
     geracao: "1",
     tipo: "agua",
+    inicial:"nao",
+    ash:"nao",
+    metamorfose:"nao",
+    cor:"azul",
     estagio: "1"
   },
   {
@@ -433,6 +550,10 @@ const pokemons = [
     lendario: "nao",
     geracao: "1",
     tipo: "eletrico",
+    inicial:"nao",
+    ash:"nao",
+    metamorfose:"nao",
+    cor:"amarelo",
     estagio: "1"
   },
   {
@@ -442,6 +563,10 @@ const pokemons = [
     lendario: "nao",
     geracao: "1",
     tipo: "fogo",
+    inicial:"nao",
+    ash:"nao",
+    metamorfose:"nao",
+    cor:"vermelho",
     estagio: "1"
   },
   {
@@ -451,6 +576,10 @@ const pokemons = [
     lendario: "nao",
     geracao: "2",
     tipo: "psiquico",
+    inicial:"nao",
+    ash:"nao",
+    metamorfose:"nao",
+    cor:"roxo",
     estagio: "1"
   },
   {
@@ -460,6 +589,10 @@ const pokemons = [
     lendario: "nao",
     geracao: "2",
     tipo: "sombrio",
+    inicial:"nao",
+    ash:"nao",
+    metamorfose:"nao",
+    cor:"preto",
     estagio: "1"
   },
   {
@@ -469,6 +602,10 @@ const pokemons = [
     lendario: "nao",
     geracao: "4",
     tipo: "planta",
+    inicial:"nao",
+    ash:"nao",
+    metamorfose:"nao",
+    cor:"verde",
     estagio: "1"
   },
   {
@@ -478,6 +615,10 @@ const pokemons = [
     lendario: "nao",
     geracao: "4",
     tipo: "gelo",
+    inicial:"nao",
+    ash:"nao",
+    metamorfose:"nao",
+    cor:"azul",
     estagio: "1"
   },
   {
@@ -487,6 +628,10 @@ const pokemons = [
     lendario: "nao",
     geracao: "6",
     tipo: "fada",
+    inicial:"nao",
+    ash:"nao",
+    metamorfose:"nao",
+    cor:"rosa",
     estagio: "1"
   },
   {
@@ -496,6 +641,10 @@ const pokemons = [
     lendario: "sim",
     geracao: "2",
     tipo: "eletrico",
+    inicial:"nao",
+    ash:"nao",
+    metamorfose:"nao",
+    cor:"amarelo",
     estagio: "basico"
   },
   {
@@ -506,6 +655,10 @@ const pokemons = [
     geracao: "2",
     tipo: "fogo",
     tipo2: "voador",
+    inicial:"nao",
+    ash:"nao",
+    metamorfose:"nao",
+    cor:"vermelho",
     estagio: "basico"
   },
   {
@@ -516,6 +669,10 @@ const pokemons = [
     geracao: "2",
     tipo: "voador",
     tipo2: "psiquico",
+    inicial:"nao",
+    ash:"nao",
+    metamorfose:"nao",
+    cor:"branco",
     estagio: "basico"
   },
   {
@@ -526,6 +683,10 @@ const pokemons = [
     geracao: "2",
     tipo: "planta",
     tipo2: "psiquico",
+    inicial:"nao",
+    ash:"nao",
+    metamorfose:"nao",
+    cor:"verde",
     estagio: "basico"
   },
   {
@@ -535,6 +696,10 @@ const pokemons = [
     lendario: "sim",
     geracao: "3",
     tipo: "pedra",
+    inicial:"nao",
+    ash:"nao",
+    metamorfose:"nao",
+    cor:"marrom",
     estagio: "basico"
   },
   {
@@ -544,6 +709,10 @@ const pokemons = [
     lendario: "sim",
     geracao: "3",
     tipo: "metal",
+    inicial:"nao",
+    ash:"nao",
+    metamorfose:"nao",
+    cor:"cinza",
     estagio: "basico"
   },
   {
@@ -553,6 +722,10 @@ const pokemons = [
     lendario: "sim",
     geracao: "3",
     tipo: "normal",
+    inicial:"nao",
+    ash:"nao",
+    metamorfose:"nao",
+    cor:"branco",
     estagio: "basico"
   },
   {
@@ -563,6 +736,10 @@ const pokemons = [
     geracao: "3",
     tipo: "dragao",
     tipo2: "psiquico",
+    inicial:"nao",
+    ash:"nao",
+    metamorfose:"nao",
+    cor:"vermelho",
     estagio: "basico"
   },
   {
@@ -573,6 +750,10 @@ const pokemons = [
     geracao: "3",
     tipo: "dragao",
     tipo2: "psiquico",
+    inicial:"nao",
+    ash:"nao",
+    metamorfose:"nao",
+    cor:"azul",
     estagio: "basico"
   },
   {
@@ -582,6 +763,10 @@ const pokemons = [
     lendario: "sim",
     geracao: "3",
     tipo: "terrestre",
+    inicial:"nao",
+    ash:"nao",
+    metamorfose:"nao",
+    cor:"vermelho",
     estagio: "basico"
   },
   {
@@ -591,6 +776,10 @@ const pokemons = [
     lendario: "sim",
     geracao: "3",
     tipo: "agua",
+    inicial:"nao",
+    ash:"nao",
+    metamorfose:"nao",
+    cor:"azul",
     estagio: "basico"
   },
   {
@@ -601,6 +790,10 @@ const pokemons = [
     geracao: "3",
     tipo: "dragao",
     tipo2: "voador",
+    inicial:"nao",
+    ash:"nao",
+    metamorfose:"nao",
+    cor:"verde",
     estagio: "basico"
   },
   {
@@ -611,6 +804,10 @@ const pokemons = [
     geracao: "2",
     tipo: "psiquico",
     tipo2: "metal",
+    inicial:"nao",
+    ash:"nao",
+    metamorfose:"nao",
+    cor:"amarelo",
     estagio: "basico"
   },
   {
@@ -620,6 +817,10 @@ const pokemons = [
     lendario: "sim",
     geracao: "3",
     tipo: "psiquico",
+    inicial:"nao",
+    ash:"nao",
+    metamorfose:"nao",
+    cor:"marrom",
     estagio: "basico"
   },
   {
@@ -629,6 +830,10 @@ const pokemons = [
     lendario: "sim",
     geracao: "4",
     tipo: "psiquico",
+    inicial:"nao",
+    ash:"nao",
+    metamorfose:"nao",
+    cor:"amarelo",
     estagio: "basico"
   },
   {
@@ -638,6 +843,10 @@ const pokemons = [
     lendario: "sim",
     geracao: "4",
     tipo: "psiquico",
+    inicial:"nao",
+    ash:"nao",
+    metamorfose:"nao",
+    cor:"rosa",
     estagio: "basico"
   },
   {
@@ -647,6 +856,10 @@ const pokemons = [
     lendario: "sim",
     geracao: "4",
     tipo: "psiquico",
+    inicial:"nao",
+    ash:"nao",
+    metamorfose:"nao",
+    cor:"azul",
     estagio: "basico"
   },
   {
@@ -657,6 +870,10 @@ const pokemons = [
     geracao: "4",
     tipo: "metal",
     tipo2: "dragao",
+    inicial:"nao",
+    ash:"nao",
+    metamorfose:"nao",
+    cor:"azul",
     estagio: "basico"
   },
   {
@@ -667,6 +884,10 @@ const pokemons = [
     geracao: "4",
     tipo: "agua",
     tipo2: "dragao",
+    inicial:"nao",
+    ash:"nao",
+    metamorfose:"nao",
+    cor:"branco",
     estagio: "basico"
   },
   {
@@ -677,6 +898,10 @@ const pokemons = [
     geracao: "4",
     tipo: "fantasma",
     tipo2: "dragao",
+    inicial:"nao",
+    ash:"nao",
+    metamorfose:"nao",
+    cor:"preto",
     estagio: "basico"
   },
   {
@@ -686,14 +911,22 @@ const pokemons = [
     lendario: "sim",
     geracao: "4",
     tipo: "psiquico",
+    inicial:"nao",
+    ash:"nao",
+    metamorfose:"nao",
+    cor:"amarelo",
     estagio: "basico"
   },
   {
     nome: "Darkrai",
-    img: "",
+    img: "data:image/jpeg;base64,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",
     lendario: "sim",
     geracao: "4",
     tipo: "sombrio",
+    inicial:"nao",
+    ash:"nao",
+    metamorfose:"nao",
+    cor:"preto",
     estagio: "basico"
   },
   {
@@ -703,6 +936,10 @@ const pokemons = [
     lendario: "sim",
     geracao: "7",
     tipo: "agua",
+    inicial:"nao",
+    ash:"nao",
+    metamorfose:"nao",
+    cor:"azul",
     estagio: "basico"
   },
   {
@@ -712,6 +949,10 @@ const pokemons = [
     lendario: "sim",
     geracao: "7",
     tipo: "agua",
+    inicial:"nao",
+    ash:"nao",
+    metamorfose:"nao",
+    cor:"azul",
     estagio: "basico"
   },
   {
@@ -722,6 +963,10 @@ const pokemons = [
     geracao: "4",
     tipo: "fogo",
     tipo2: "metal",
+    inicial:"nao",
+    ash:"nao",
+    metamorfose:"nao",
+    cor:"amarelo",
     estagio: "basico"
   },
   {
@@ -731,6 +976,10 @@ const pokemons = [
     lendario: "sim",
     geracao: "4",
     tipo: "planta",
+    inicial:"nao",
+    ash:"nao",
+    metamorfose:"nao",
+    cor:"verde",
     estagio: "basico"
   },
   {
@@ -740,6 +989,10 @@ const pokemons = [
     lendario: "sim",
     geracao: "4",
     tipo: "normal",
+    inicial:"nao",
+    ash:"nao",
+    metamorfose:"nao",
+    cor:"verde",
     estagio: "basico"
   },
   {
@@ -750,6 +1003,10 @@ const pokemons = [
     geracao: "5",
     tipo: "fogo",
     tipo2: "psiquico",
+    inicial:"nao",
+    ash:"nao",
+    metamorfose:"nao",
+    cor:"amarelo",
     estagio: "basico"
   },
   {
@@ -760,6 +1017,10 @@ const pokemons = [
     geracao: "5",
     tipo: "metal",
     tipo2: "lutador",
+    inicial:"nao",
+    ash:"nao",
+    metamorfose:"nao",
+    cor:"azul",
     estagio: "basico"
   },
   {
@@ -770,6 +1031,10 @@ const pokemons = [
     geracao: "5",
     tipo: "pedra",
     tipo2: "lutador",
+    inicial:"nao",
+    ash:"nao",
+    metamorfose:"nao",
+    cor:"cinza",
     estagio: "basico"
   },
   {
@@ -780,6 +1045,10 @@ const pokemons = [
     geracao: "5",
     tipo: "planta",
     tipo2: "lutador",
+    inicial:"nao",
+    ash:"nao",
+    metamorfose:"nao",
+    cor:"verde",
     estagio: "basico"
   },
   {
@@ -790,6 +1059,10 @@ const pokemons = [
     geracao: "5",
     tipo: "agua",
     tipo2: "lutador",
+    inicial:"nao",
+    ash:"nao",
+    metamorfose:"nao",
+    cor:"amarelo",
     estagio: "basico"
   },
   {
@@ -799,6 +1072,10 @@ const pokemons = [
     lendario: "sim",
     geracao: "5",
     tipo: "voador",
+    inicial:"nao",
+    ash:"nao",
+    metamorfose:"nao",
+    cor:"verde",
     estagio: "basico"
   },
   {
@@ -809,6 +1086,10 @@ const pokemons = [
     geracao: "5",
     tipo: "eletrico",
     tipo2: "voador",
+    inicial:"nao",
+    ash:"nao",
+    metamorfose:"nao",
+    cor:"azul",
     estagio: "basico"
   },
   {
@@ -819,6 +1100,10 @@ const pokemons = [
     geracao: "5",
     tipo: "terrestre",
     tipo2: "voador",
+    inicial:"nao",
+    ash:"nao",
+    metamorfose:"nao",
+    cor:"vermelho",
     estagio: "basico"
   },
   {
@@ -829,6 +1114,10 @@ const pokemons = [
     geracao: "5",
     tipo: "dragao",
     tipo2: "eletrico",
+    inicial:"nao",
+    ash:"nao",
+    metamorfose:"nao",
+    cor:"preto",
     estagio: "basico"
   },
   {
@@ -838,6 +1127,10 @@ const pokemons = [
     lendario: "sim",
     geracao: "5",
     tipo: "dragao",
+    inicial:"nao",
+    ash:"nao",
+    metamorfose:"nao",
+    cor:"branco",
     estagio: "basico"
   },
   {
@@ -848,6 +1141,10 @@ const pokemons = [
     geracao: "5",
     tipo: "dragao",
     tipo2: "gelo",
+    inicial:"nao",
+    ash:"nao",
+    metamorfose:"nao",
+    cor:"cinza",
     estagio: "basico"
   },
   {
@@ -858,6 +1155,10 @@ const pokemons = [
     geracao: "5",
     tipo: "normal",
     tipo2: "psiquico",
+    inicial:"nao",
+    ash:"nao",
+    metamorfose:"nao",
+    cor:"marrom",
     estagio: "basico"
   },
   {
@@ -868,6 +1169,10 @@ const pokemons = [
     geracao: "5",
     tipo: "inseto",
     tipo2: "metal",
+    inicial:"nao",
+    ash:"nao",
+    metamorfose:"nao",
+    cor:"roxo",
     estagio: "basico"
   },
   {
@@ -877,6 +1182,10 @@ const pokemons = [
     lendario: "sim",
     geracao: "6",
     tipo: "fada",
+    inicial:"nao",
+    ash:"nao",
+    metamorfose:"nao",
+    cor:"preto",
     estagio: "basico"
   },
   {
@@ -887,6 +1196,10 @@ const pokemons = [
     geracao: "6",
     tipo: "sombrio",
     tipo2: "voador",
+    inicial:"nao",
+    ash:"nao",
+    metamorfose:"nao",
+    cor:"vermelho",
     estagio: "basico"
   },
   {
@@ -897,6 +1210,10 @@ const pokemons = [
     geracao: "6",
     tipo: "dragao",
     tipo2: "terrestre",
+    inicial:"nao",
+    ash:"nao",
+    metamorfose:"nao",
+    cor:"preto",
     estagio: "basico"
   },
   {
@@ -907,6 +1224,10 @@ const pokemons = [
     geracao: "6",
     tipo: "pedra",
     tipo2: "fada",
+    inicial:"nao",
+    ash:"nao",
+    metamorfose:"nao",
+    cor:"rosa",
     estagio: "basico"
   },
   {
@@ -917,6 +1238,10 @@ const pokemons = [
     geracao: "6",
     tipo: "psiquico",
     tipo2: "fantasma",
+    inicial:"nao",
+    ash:"nao",
+    metamorfose:"nao",
+    cor:"cinza",
     estagio: "basico"
   },
   {
@@ -927,6 +1252,10 @@ const pokemons = [
     geracao: "6",
     tipo: "fogo",
     tipo2: "agua",
+    inicial:"nao",
+    ash:"nao",
+    metamorfose:"nao",
+    cor:"vermelho",
     estagio: "basico"
   },
   {
@@ -937,6 +1266,10 @@ const pokemons = [
     geracao: "7",
     tipo: "metal",
     tipo2: "fada",
+    inicial:"nao",
+    ash:"nao",
+    metamorfose:"nao",
+    cor:"cinza",
     estagio: "basico"
   }
 ];
