@@ -2,8 +2,8 @@ body {
   font-color: #ffffff;
   font-family: "Open Sans", sans-serif;
   min-height: 600px;
-  background-image: url("https://media.discordapp.net/attachments/1026231432273743934/1027769949936177212/unknown.png?width=1031&height=580");
-  background-color: #ffffff;
+  background-image: url("./background.png");
+  background-color: #ff0000;
   background-size: cover;
   background-position: conver;
   background-repeat: no-repeat;
@@ -65,7 +65,7 @@ select {
 #pokemons {
   background-color: white;
   background: white;
-/*  background-image: url("https://wallpaperaccess.com/full/45634.png");
+  /*  background-image: url("https://wallpaperaccess.com/full/45634.png");
   background-size: cover;
   background-position: center;*/
   border-radius: 50px;
